@@ -5,6 +5,34 @@ __metadata:
   version: 4
   cacheKey: 7
 
+"@algolia/autocomplete-core@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@algolia/autocomplete-core@npm:1.5.0"
+  dependencies:
+    "@algolia/autocomplete-shared": 1.5.0
+  checksum: 1d12b7dc09b5a5712b03954fea7e174bfb4931bb23f1d656e973b859f1c6e28282acbe8e63d4e4fb1f95fe2c7bff43811fef00169c6bb78ef1137ae5533e496b
+  languageName: node
+  linkType: hard
+
+"@algolia/autocomplete-preset-algolia@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@algolia/autocomplete-preset-algolia@npm:1.5.0"
+  dependencies:
+    "@algolia/autocomplete-shared": 1.5.0
+  peerDependencies:
+    "@algolia/client-search": ^4.9.1
+    algoliasearch: ^4.9.1
+  checksum: 68c0d9457c48e37d0e89507b07c93404490bf8fa82dd6e7ef4462baf5fe333fdaf50f1d3d944a1ec7dafec1ecec0fea04051ee39c05a85603b556df440202619
+  languageName: node
+  linkType: hard
+
+"@algolia/autocomplete-shared@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@algolia/autocomplete-shared@npm:1.5.0"
+  checksum: b2d7ab7d1822a632a18c1d84024dab13a7a89ae13c07671c4f2ec6d83e51394eaa6af68b2ea3932c202515dccd3e259b0dce5e3f0e934abbfca55a132e3336af
+  languageName: node
+  linkType: hard
+
 "@algolia/cache-browser-local-storage@npm:4.8.6":
   version: 4.8.6
   resolution: "@algolia/cache-browser-local-storage@npm:4.8.6"
@@ -3101,25 +3129,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docsearch/css@npm:^1.0.0-alpha.28":
-  version: 1.0.0-alpha.28
-  resolution: "@docsearch/css@npm:1.0.0-alpha.28"
-  checksum: 77158cad50e5e5de41334e2dbea765e0d76c6153ea9bcf7859669e786116b1e5fda3ef78e1bae188459e90d551166753ca3a138229bdc6db96dc4e024dd84058
+"@docsearch/css@npm:3.0.0-alpha.42, @docsearch/css@npm:^3.0.0-alpha.42":
+  version: 3.0.0-alpha.42
+  resolution: "@docsearch/css@npm:3.0.0-alpha.42"
+  checksum: a31d911337f97ecab52c8f23831a0da0c81296618a0ca4c1e05e69153ab89f383f32333e27f06293777651d92de45a98d23d5c9f6d268311b65f3dc48cf16d3e
   languageName: node
   linkType: hard
 
-"@docsearch/react@npm:^1.0.0-alpha.28":
-  version: 1.0.0-alpha.28
-  resolution: "@docsearch/react@npm:1.0.0-alpha.28"
+"@docsearch/react@npm:^3.0.0-alpha.42":
+  version: 3.0.0-alpha.42
+  resolution: "@docsearch/react@npm:3.0.0-alpha.42"
   dependencies:
-    "@docsearch/css": ^1.0.0-alpha.28
-    "@francoischalifour/autocomplete-core": ^1.0.0-alpha.28
-    "@francoischalifour/autocomplete-preset-algolia": ^1.0.0-alpha.28
+    "@algolia/autocomplete-core": 1.5.0
+    "@algolia/autocomplete-preset-algolia": 1.5.0
+    "@docsearch/css": 3.0.0-alpha.42
     algoliasearch: ^4.0.0
   peerDependencies:
-    react: ^16.8.0
-    react-dom: ^16.8.0
-  checksum: 63b8a41917cac3d841acd0da2f327223e0c7a724e7e47689758ba8ec03a44037bd03b4aa49d96e19de85b89586a163f4f4194072d4a2dcd0b69da4564c9d7f80
+    "@types/react": ">= 16.8.0 < 18.0.0"
+    react: ">= 16.8.0 < 18.0.0"
+    react-dom: ">= 16.8.0 < 18.0.0"
+  checksum: e57f00fb0bd88c1fda7a634de78815533432c7c06bc40b1039f9099816b38c081a55e15cff868721c41d2b00a2c7eea1f8528f182c1a0f265d9b1d039fa34c86
   languageName: node
   linkType: hard
 
@@ -3198,20 +3227,6 @@ __metadata:
     minimatch: ^3.0.4
     strip-json-comments: ^3.1.1
   checksum: 60b66ce4257bf5c36a920dea83a056102fef746e7afd7100a6fe245a126ff455f67f4948e75d28ed73090bff8f8556b6a996e74a124911ca703440bc245dbc23
-  languageName: node
-  linkType: hard
-
-"@francoischalifour/autocomplete-core@npm:^1.0.0-alpha.28":
-  version: 1.0.0-alpha.28
-  resolution: "@francoischalifour/autocomplete-core@npm:1.0.0-alpha.28"
-  checksum: fb86ca68c5471a07b6e9a53b449c4c50f74363210e89da4f180c4ab9a64b0a81e5d79b2be2986db5f7da84ded61370e2f0c729f130136090b41107ffaf08965a
-  languageName: node
-  linkType: hard
-
-"@francoischalifour/autocomplete-preset-algolia@npm:^1.0.0-alpha.28":
-  version: 1.0.0-alpha.28
-  resolution: "@francoischalifour/autocomplete-preset-algolia@npm:1.0.0-alpha.28"
-  checksum: 56a3b7c0da1b6a8908cdee283628c1b9f8e50b1e060e7d455436065a099200126aa312a3ee4d395215c3028ca142db1ae6503206df304919307d3128c89444c9
   languageName: node
   linkType: hard
 
@@ -19242,8 +19257,8 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "smooth-doc@workspace:smooth-doc"
   dependencies:
-    "@docsearch/css": ^1.0.0-alpha.28
-    "@docsearch/react": ^1.0.0-alpha.28
+    "@docsearch/css": ^3.0.0-alpha.42
+    "@docsearch/react": ^3.0.0-alpha.42
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@xstyled/styled-components": ^3.5.1

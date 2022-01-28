@@ -4211,6 +4211,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/buble@npm:^0.20.0":
+  version: 0.20.1
+  resolution: "@types/buble@npm:0.20.1"
+  dependencies:
+    magic-string: ^0.25.0
+  checksum: 0bbd29ba08660299f4ce87b62601ee3f2773ab02bc984c2620f62b9ff86a5c8f9a92aba1050e4945e5f99a9b4aef464475c10e89df0d61ac14af65b76cdb22e4
+  languageName: node
+  linkType: hard
+
 "@types/cacheable-request@npm:^6.0.1":
   version: 6.0.1
   resolution: "@types/cacheable-request@npm:6.0.1"
@@ -7350,7 +7359,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:4.5.0, conventional-changelog-conventionalcommits@npm:^4.5.0":
+"conventional-changelog-conventionalcommits@npm:4.6.1":
+  version: 4.6.1
+  resolution: "conventional-changelog-conventionalcommits@npm:4.6.1"
+  dependencies:
+    compare-func: ^2.0.0
+    lodash: ^4.17.15
+    q: ^1.5.1
+  checksum: c9a72b75eb68c0c5d837a5cce26a81ff2f726eedf3af4e4e616eb6de013e7884ef7a092483dec8edf2d18199ea9f3deb093eeb6febd0ccc7dda772bdedef0058
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^4.5.0":
   version: 4.5.0
   resolution: "conventional-changelog-conventionalcommits@npm:4.5.0"
   dependencies:
@@ -7700,14 +7720,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^2.4.1":
-  version: 2.6.12
-  resolution: "core-js@npm:2.6.12"
-  checksum: b865823ce9cb5bc63336856440f6525e4996bb91af30660081e82bf447d177f36104f0986906a34ea0c9c03cb8b3d960380848a478e2621dac30c9b8198d28da
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.17.2":
+"core-js@npm:^3.14.0, core-js@npm:^3.17.2":
   version: 3.20.3
   resolution: "core-js@npm:3.20.3"
   checksum: 41cc5dec49ebf98a21f04e48d0b4da905b8b58d89dad2b0552237256c1cadf4a6835b985a52dc47d866e6c79a5651e3711f5e3b3387baeedac514dd902a42c25
@@ -14472,7 +14485,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.25.1":
+"magic-string@npm:^0.25.0, magic-string@npm:^0.25.1":
   version: 0.25.7
   resolution: "magic-string@npm:0.25.7"
   dependencies:
@@ -17344,15 +17357,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prism-react-renderer@npm:^1.0.1":
-  version: 1.2.0
-  resolution: "prism-react-renderer@npm:1.2.0"
-  peerDependencies:
-    react: ">=0.14.9"
-  checksum: 794de7917da61f185c82e16766dfd0bdfbf78d36bc30136a7a94c3e05ce6994790508a09858a6065bad615641c5a8f32b0f4e546a6179538fe7dafb5c2a6e5d0
-  languageName: node
-  linkType: hard
-
 "prism-react-renderer@npm:^1.2.1":
   version: 1.2.1
   resolution: "prism-react-renderer@npm:1.2.1"
@@ -17423,7 +17427,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.8, prop-types@npm:^15.6.1, prop-types@npm:^15.7.2":
+"prop-types@npm:^15.6.1, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -17796,18 +17800,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-live@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "react-live@npm:2.2.3"
+"react-live@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "react-live@npm:2.4.1"
   dependencies:
+    "@types/buble": ^0.20.0
     buble: 0.19.6
-    core-js: ^2.4.1
+    core-js: ^3.14.0
     dom-iterator: ^1.0.0
-    prism-react-renderer: ^1.0.1
-    prop-types: ^15.5.8
-    react-simple-code-editor: ^0.10.0
+    prism-react-renderer: ^1.2.1
+    prop-types: ^15.7.2
+    react-simple-code-editor: ^0.11.0
     unescape: ^1.0.1
-  checksum: 857a5c6a51662bc03a33a18042fa26cb04651e9574e6bbd5bb51acb1c0e08a72aba96ae16633dd993109ee03ae16cb814f589b0e538165210db281d4e1638a0f
+  checksum: 1057920fbcb5d4ff2ff6dbb515335d45b5fdd8685385ce4f71b25bf95bedf02f55600fb61410a8abc12c02a619a5f2c9a224498dc2440f527e9233ec125ccf2a
   languageName: node
   linkType: hard
 
@@ -17827,13 +17832,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-simple-code-editor@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "react-simple-code-editor@npm:0.10.0"
+"react-simple-code-editor@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "react-simple-code-editor@npm:0.11.0"
   peerDependencies:
     react: ^16.0.0
     react-dom: ^16.0.0
-  checksum: b0f2c48417979062d5c3a87e48532dc275a934f6a587e5732fa2e900236772831611f5f8dd519aaaa1222b9b01d6833dbbacd3c04f73dc16417ef77d4127e084
+  checksum: d482ccca2bb4cbdc66eaa2efddcbbce1b2a9e22b4e093d3538abbfc13bbe68a91ce2c745e74b7eeb69cb3ee59d35f031e3dc545cbdf347039445756749a9f64d
   languageName: node
   linkType: hard
 
@@ -18019,52 +18024,52 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"reakit-system@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "reakit-system@npm:0.15.1"
+"reakit-system@npm:^0.15.2":
+  version: 0.15.2
+  resolution: "reakit-system@npm:0.15.2"
   dependencies:
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: d7ac3c0d1ba36e8cdd2f1967cc407fae7ac166f3dfd6ac5994214882d32c5b7c30fda42a929832f30ca87a6e7edb1f180e677568d682cd7efddf1176c48f3025
+  checksum: fc9790c40937f15344614fa4ac72cc843d34d7a5f5f37e27e090d4c5f9014f10ffcf26b5bebe1e90399614c4005c1a25a5b37b985425a3af968b1bd3e7a20b7e
   languageName: node
   linkType: hard
 
-"reakit-utils@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "reakit-utils@npm:0.15.1"
+"reakit-utils@npm:^0.15.2":
+  version: 0.15.2
+  resolution: "reakit-utils@npm:0.15.2"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 814dddd07f18effe333618d583ce480fca61b058c1865b89063ccdf32ecf8c940bf7c2c7f410acb37613a97991b7c8e1b1512980a1e390fef33d9583587a91ff
+  checksum: d231c7e80408be49ab5c5c97a2153f1168886d88fc38583f0a94f15f2cb923abc0b597eb4fa05354d3263060ce1ff02f8cf53061e133e70a18335df10808e9b3
   languageName: node
   linkType: hard
 
-"reakit-warning@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "reakit-warning@npm:0.6.1"
+"reakit-warning@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "reakit-warning@npm:0.6.2"
   dependencies:
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
-  checksum: 7f44ea2d9640764c5ce76ed9407bee1be2be949accc19230f03f758f5bc08c7d2c81e3a9a406feb3d53121e67e0ee6a8a7a54bbc739e504951151c8dae1a4720
+  checksum: 675000d40930715d5aae37f6f7cc609d2cbbdab1b38b084a7700c31f10cd390c3092b5f30bb7c531624e83417b17dc44f08eee0dba867cf92c2ed43b6f65931c
   languageName: node
   linkType: hard
 
-"reakit@npm:^1.3.8":
-  version: 1.3.8
-  resolution: "reakit@npm:1.3.8"
+"reakit@npm:^1.3.11":
+  version: 1.3.11
+  resolution: "reakit@npm:1.3.11"
   dependencies:
     "@popperjs/core": ^2.5.4
     body-scroll-lock: ^3.1.5
-    reakit-system: ^0.15.1
-    reakit-utils: ^0.15.1
-    reakit-warning: ^0.6.1
+    reakit-system: ^0.15.2
+    reakit-utils: ^0.15.2
+    reakit-warning: ^0.6.2
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 6b1e72c1b230d896d3f6ea6acb92130ce0dae5fb5b756801a2536ee6e2845bdb9d6109ea291122926d8bcbeb33bdc74bb1c019832656e777fb8bf9f492591001
+  checksum: a9a513d5bfba9ce0ce627b3f1f54f04abea0ae157fd6f4307781361aa2656581dfe0f9f9f870f4c6f0654af1011d387713a51850c068417115e70ec86774e0a9
   languageName: node
   linkType: hard
 
@@ -19290,10 +19295,10 @@ resolve@^2.0.0-next.3:
     react-dom: ^17.0.2
     react-helmet: ^6.1.0
     react-icons: ^4.2.0
-    react-live: ^2.2.3
-    reakit: ^1.3.8
-    standard-version: ^9.3.0
-    styled-components: ^5.3.0
+    react-live: ^2.4.1
+    reakit: ^1.3.11
+    standard-version: ^9.3.2
+    styled-components: ^5.3.3
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^3.0.0
@@ -19705,14 +19710,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"standard-version@npm:^9.3.0":
-  version: 9.3.0
-  resolution: "standard-version@npm:9.3.0"
+"standard-version@npm:^9.3.2":
+  version: 9.3.2
+  resolution: "standard-version@npm:9.3.2"
   dependencies:
     chalk: ^2.4.2
     conventional-changelog: 3.1.24
     conventional-changelog-config-spec: 2.1.0
-    conventional-changelog-conventionalcommits: 4.5.0
+    conventional-changelog-conventionalcommits: 4.6.1
     conventional-recommended-bump: 6.1.0
     detect-indent: ^6.0.0
     detect-newline: ^3.1.0
@@ -19726,7 +19731,7 @@ resolve@^2.0.0-next.3:
     yargs: ^16.0.0
   bin:
     standard-version: bin/cli.js
-  checksum: e56d3e550622d5a636a311ee432d2bb9697a9d4610a57e779d3f47a20bae4393547a1bd1de34151b01b7408b32976e88daa08cb4c4a29a61379ceeb77a248633
+  checksum: f469069be3e1c343cbd04c5fab7ca5ce821eb893ba10ffd896e4af09691f2c4917902907266836d693e70becd97262068cc65809faf1ec0e3274a06c3221cc67
   languageName: node
   linkType: hard
 
@@ -20138,9 +20143,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "styled-components@npm:5.3.0"
+"styled-components@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "styled-components@npm:5.3.3"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
     "@babel/traverse": ^7.4.5
@@ -20156,7 +20161,7 @@ resolve@^2.0.0-next.3:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
-  checksum: 1f94f92b5dab0b0a965646079604c184e9ef31fd0546881408039a5b4d9a4ebe73b6bb62b05912f06b68392352f1fed4c2dd66a74888b2446226aa0105b681c9
+  checksum: c0879b91e0994db108b2b775b778d87b81527febc28946819c0e97c57f5aa524f82c9b4da905f8787ecae08f30a3eadecb75a54b3c4ec28718438b660b46853e
   languageName: node
   linkType: hard
 
@@ -21808,7 +21813,7 @@ resolve@^2.0.0-next.3:
     react-icons: ^4.2.0
     react-is: ^17.0.2
     smooth-doc: ^8.0.0
-    styled-components: ^5.3.0
+    styled-components: ^5.3.3
   languageName: unknown
   linkType: soft
 

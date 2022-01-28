@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "format": "prettier --write \"**/*.{js,md,mdx}\"",
+    "format-check": "prettier --check \"**/*.{js,md,mdx}\"",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -15,7 +16,7 @@
     "eslint": "^7.29.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-config-smooth": "^2.1.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",

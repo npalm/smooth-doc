@@ -33,13 +33,13 @@
     "react-dom": "*"
   },
   "dependencies": {
-    "@docsearch/css": "^1.0.0-alpha.22",
-    "@docsearch/react": "^1.0.0-alpha.14",
+    "@docsearch/css": "^1.0.0-alpha.28",
+    "@docsearch/react": "^1.0.0-alpha.28",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@xstyled/styled-components": "^3.5.1",
     "babel-plugin-styled-components": "^1.13.3",
-    "babel-preset-gatsby": "^1.14.0",
+    "babel-preset-gatsby": "^2.6.0",
     "fs-extra": "^10.0.0",
     "gatsby-plugin-catch-links": "^3.14.0",
     "gatsby-plugin-compile-es6-packages": "^2.1.1",

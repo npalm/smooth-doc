@@ -3101,14 +3101,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docsearch/css@npm:^1.0.0-alpha.22, @docsearch/css@npm:^1.0.0-alpha.28":
+"@docsearch/css@npm:^1.0.0-alpha.28":
   version: 1.0.0-alpha.28
   resolution: "@docsearch/css@npm:1.0.0-alpha.28"
   checksum: 77158cad50e5e5de41334e2dbea765e0d76c6153ea9bcf7859669e786116b1e5fda3ef78e1bae188459e90d551166753ca3a138229bdc6db96dc4e024dd84058
   languageName: node
   linkType: hard
 
-"@docsearch/react@npm:^1.0.0-alpha.14":
+"@docsearch/react@npm:^1.0.0-alpha.28":
   version: 1.0.0-alpha.28
   resolution: "@docsearch/react@npm:1.0.0-alpha.28"
   dependencies:
@@ -5865,9 +5865,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-gatsby@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "babel-preset-gatsby@npm:1.14.0"
+"babel-preset-gatsby@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "babel-preset-gatsby@npm:2.6.0"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.14.0
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
@@ -5882,12 +5882,12 @@ __metadata:
     babel-plugin-dynamic-import-node: ^2.3.3
     babel-plugin-macros: ^2.8.0
     babel-plugin-transform-react-remove-prop-types: ^0.4.24
-    gatsby-core-utils: ^2.14.0
-    gatsby-legacy-polyfills: ^1.14.0
+    gatsby-core-utils: ^3.6.0
+    gatsby-legacy-polyfills: ^2.6.0
   peerDependencies:
     "@babel/core": ^7.11.6
     core-js: ^3.0.0
-  checksum: 21869ab5b0d5a753e30fb3553ebf8b0faa25ec718e43646fd95869aec4703f98c0bf159dfca220f345adae42c9863b79b91b8498284924157815aa3b6a34d48c
+  checksum: 5cc289b7053e9a47e4bd5dfea1d9dfccdf855cefe97e487c2794784b88d251966414846dbe3a9257a0d8d9c89a5f74bcb776cb44bb7b09e7ac32377acfc5c28e
   languageName: node
   linkType: hard
 
@@ -10633,6 +10633,25 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "gatsby-core-utils@npm:3.6.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    file-type: ^16.5.3
+    fs-extra: ^10.0.0
+    got: ^11.8.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 3639bb42d86c0cb94429847cb99172b4e7b4a83812820485bafc1aadc4766054784ad53fdbb4d01efc46f1059e0da17b2535beb0bbaef8e91cce9416cbe76c99
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^1.1.0":
   version: 1.1.0
   resolution: "gatsby-graphiql-explorer@npm:1.1.0"
@@ -10651,13 +10670,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-legacy-polyfills@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "gatsby-legacy-polyfills@npm:1.14.0"
+"gatsby-legacy-polyfills@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "gatsby-legacy-polyfills@npm:2.6.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     core-js-compat: 3.9.0
-  checksum: 1e0f9fe7c1ccdbf986eb37ef5fb9fe439d148f83cf1558a48c2249fe4b6129165050984078822f2e407a68c2c727f971195746be72282b9da9373f21072a53a9
+  checksum: 8b3cc8166e25ffb2643feb3a96037036649b5d7239c1e0e31c5747bd9dcf9778bfb9fcf6e9abd41e8ef53ff0049112007ced1c5734d0b598ef695d48a20e84b8
   languageName: node
   linkType: hard
 
@@ -11785,7 +11804,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"got@npm:^11.8.2":
+"got@npm:^11.8.2, got@npm:^11.8.3":
   version: 11.8.3
   resolution: "got@npm:11.8.3"
   dependencies:
@@ -14104,7 +14123,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lock@npm:^1.0.0":
+"lock@npm:^1.0.0, lock@npm:^1.1.0":
   version: 1.1.0
   resolution: "lock@npm:1.1.0"
   checksum: 778667cb5484b71024446748f614c74915a6108ae67171dc1ae16efaa6665b3a8be4942b8193316b63416a5953ce839c7ed029327447231c33530d6a60bb978b
@@ -15510,7 +15529,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-object-hash@npm:^2.3.9":
+"node-object-hash@npm:^2.3.10, node-object-hash@npm:^2.3.9":
   version: 2.3.10
   resolution: "node-object-hash@npm:2.3.10"
   checksum: 276d230095fc1f83460a222ec895dc7e204713ba18e917aa09cdd310a0db33067e4e40a60c753b8dfeff5c956e6713f217c52e9edb1adb35019a5aacf761367b
@@ -19223,13 +19242,13 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "smooth-doc@workspace:smooth-doc"
   dependencies:
-    "@docsearch/css": ^1.0.0-alpha.22
-    "@docsearch/react": ^1.0.0-alpha.14
+    "@docsearch/css": ^1.0.0-alpha.28
+    "@docsearch/react": ^1.0.0-alpha.28
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@xstyled/styled-components": ^3.5.1
     babel-plugin-styled-components: ^1.13.3
-    babel-preset-gatsby: ^1.14.0
+    babel-preset-gatsby: ^2.6.0
     conventional-github-releaser: ^3.1.5
     fs-extra: ^10.0.0
     gatsby: ^3.14.6

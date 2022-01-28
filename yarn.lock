@@ -2988,15 +2988,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.14.0":
-  version: 7.14.6
-  resolution: "@babel/runtime@npm:7.14.6"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: dd931f6ef1c8dab295c4a00c592db6352bf12a5c443f8222304d5c1d3e88d795fa949afcb6f053eec2e69e9827a17ff274524c1cd43813f56b61e3a540274d2f
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/runtime@npm:7.16.7"
@@ -11601,12 +11592,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"github-slugger@npm:^1.2.1, github-slugger@npm:^1.3.0":
+"github-slugger@npm:^1.2.1":
   version: 1.3.0
   resolution: "github-slugger@npm:1.3.0"
   dependencies:
     emoji-regex: ">=6.0.0 <=6.1.1"
   checksum: 1f5961777b75d2ce2df5ae8d16a1eba49145a9896c5808341ca4100894631a4182ab010dea260a8a22855ea89d383f61412507dd34977a67b3a641168af19e10
+  languageName: node
+  linkType: hard
+
+"github-slugger@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "github-slugger@npm:1.4.0"
+  checksum: f6767047f38d6ed15024feae284286447ee11308af38b43422720ca39bb5a4197aa202e4673c5e97410192495689e953cea407e5e83c00360dea802ca3569c87
   languageName: node
   linkType: hard
 
@@ -16772,12 +16770,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"polished@npm:^4.1.3":
-  version: 4.1.3
-  resolution: "polished@npm:4.1.3"
+"polished@npm:^4.1.4":
+  version: 4.1.4
+  resolution: "polished@npm:4.1.4"
   dependencies:
-    "@babel/runtime": ^7.14.0
-  checksum: 1ba2b0a8d7ca9e229359abf3a743eabe861b2b17ea69b088de5b0905d78401ac2b258371804208af5b412818a6d5ee28359ef6c79cd054245c159fe6c756a85c
+    "@babel/runtime": ^7.16.7
+  checksum: 24aae13e3f288241f1b7c2ba7bd4b225601223b60bdb2ea95371a9d212745f8caff9a6279f9a8b0e14811876407d831cb6ae14c9676da36e2e5a7ec8cc8fc789
   languageName: node
   linkType: hard
 
@@ -19247,9 +19245,9 @@ resolve@^2.0.0-next.3:
     gatsby-remark-images: ^5.11.0
     gatsby-source-filesystem: ^3.14.0
     gatsby-transformer-sharp: ^3.14.0
-    github-slugger: ^1.3.0
+    github-slugger: ^1.4.0
     mdast-util-to-string: ^2.0.0
-    polished: ^4.1.3
+    polished: ^4.1.4
     prism-react-renderer: ^1.2.1
     prismjs: ^1.26.0
     react: ^17.0.2

@@ -8,8 +8,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@xstyled/styled-components": "^3.0.2",
+    "@babel/core": "^7.16.12",
+    "@xstyled/styled-components": "^3.5.1",
     "gatsby": "^3.14.6",
     "gatsby-plugin-google-analytics": "^3.14.0",
     "react": "^17.0.2",

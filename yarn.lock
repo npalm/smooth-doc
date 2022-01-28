@@ -427,7 +427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-annotate-as-pure@npm:^7.15.4, @babel/helper-annotate-as-pure@npm:^7.16.7":
+"@babel/helper-annotate-as-pure@npm:^7.16.0, @babel/helper-annotate-as-pure@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-annotate-as-pure@npm:7.16.7"
   dependencies:
@@ -766,7 +766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-imports@npm:^7.15.4, @babel/helper-module-imports@npm:^7.16.7":
+"@babel/helper-module-imports@npm:^7.16.0, @babel/helper-module-imports@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-module-imports@npm:7.16.7"
   dependencies:
@@ -5826,17 +5826,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-styled-components@npm:^1.13.3":
-  version: 1.13.3
-  resolution: "babel-plugin-styled-components@npm:1.13.3"
+"babel-plugin-styled-components@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "babel-plugin-styled-components@npm:2.0.2"
   dependencies:
-    "@babel/helper-annotate-as-pure": ^7.15.4
-    "@babel/helper-module-imports": ^7.15.4
+    "@babel/helper-annotate-as-pure": ^7.16.0
+    "@babel/helper-module-imports": ^7.16.0
     babel-plugin-syntax-jsx: ^6.18.0
     lodash: ^4.17.11
   peerDependencies:
     styled-components: ">= 2"
-  checksum: 5eebde6bce6400942cbf15e3f116cb340644d57f6f126de491e53cb15bde020fa2ee49fe9da1804233fe1a6d0c04ccb03107821ec7f1f22a0ac45d7fdbd852a7
+  checksum: 65d24b45f19aaf043ee52b42e29774d2f852861e2036e97abf333b1010e6df5bd70f06a0d4ea44f3fe705d8d7a475882b535e88cfeebed781f5526571f5d8a95
   languageName: node
   linkType: hard
 
@@ -19226,7 +19226,7 @@ resolve@^2.0.0-next.3:
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@xstyled/styled-components": ^3.5.1
-    babel-plugin-styled-components: ^1.13.3
+    babel-plugin-styled-components: ^2.0.2
     babel-preset-gatsby: ^2.6.0
     conventional-github-releaser: ^3.1.5
     fs-extra: ^10.0.0

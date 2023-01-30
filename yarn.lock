@@ -14893,6 +14893,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"mdast-util-to-string@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "mdast-util-to-string@npm:3.1.1"
+  dependencies:
+    "@types/mdast": ^3.0.0
+  checksum: be7d3e7289dd89abd873459409557781a79d07da8408a22616bd3e4f1327e8bf6ef5fcb5b2f8579c8b2acc200df1a117f8633ded9581af1b553ef792e4ce82e6
+  languageName: node
+  linkType: hard
+
 "mdast-util-toc@npm:^3.1.0":
   version: 3.1.0
   resolution: "mdast-util-toc@npm:3.1.0"
@@ -19463,7 +19472,7 @@ resolve@^2.0.0-next.3:
     gatsby-source-filesystem: ^4.6.0
     gatsby-transformer-sharp: ^4.6.0
     github-slugger: ^1.4.0
-    mdast-util-to-string: ^2.0.0
+    mdast-util-to-string: ^3.1.1
     polished: ^4.1.4
     prism-react-renderer: ^1.2.1
     prismjs: ^1.26.0
